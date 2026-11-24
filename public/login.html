@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entrar · Balcão de pedidos</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Inter:wght@400;500;600&family=Kalam:wght@400;700&display=swap">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="login">
+  <form id="entrar" novalidate>
+    <h1>Balcão de pedidos</h1>
+    <label>Usuário<input id="usuario" autocomplete="username" required></label>
+    <label>Senha<input id="senha" type="password" autocomplete="current-password" required></label>
+    <p class="erro" id="erro" role="alert"></p>
+    <button class="btn pri" type="submit" id="botao">Entrar</button>
+  </form>
+  <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "anotei",
+  "version": "1.0.0",
+  "description": "Balcão de pedidos da papelaria: registro de pedidos, etapas de produção e aviso ao cliente pelo WhatsApp",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cookie-session": "^2.1.0",
+    "express": "^4.21.2"
+  }
+}
